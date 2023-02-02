@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png"/>
+
+    <!--Swiper CSS-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" 
+          rel="stylesheet">
+
+    <!--Estilo Geral-->
+    <link rel="stylesheet" href="./css/style.css"/>
+    <!--Barra de Navegação-->
+    <link rel="stylesheet" href="./css/navbar.css"/>
+    <!--Inicio-->
+    <link rel="stylesheet" href="./css/inicio.css"/>
+    <!--Sobre Mim-->
+    <link rel="stylesheet" href="./css/sobreMim.css"/>
+    <!--Projetos-->
+    <link rel="stylesheet" href="./css/projetos.css"/>
+    <!--Habilidades-->
+    <link rel="stylesheet" href="./css/habilidades.css"/>
+    <!--Footer-->
+    <link rel="stylesheet" href="./css/footer.css"/>
+
+    <title>Portfólio | Manderson Gomes</title>
+</head>
+<body>
+    <div class="container">
+
+        <header class="headerContainer">
+            <nav>
+                <div class="nav-container">
+                    <div class="logo">MGH</div>
+
+                    <div class="mobile">
+                        <div class="linha1"></div>
+                        <div class="linha2"></div>
+                        <div class="linha3"></div>
+                    </div>
+
+                    <ul class="nav-list"> 
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobreMim">Sobre</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </header>
+
+        
+        <div class="containerConteudo">
+
+            <section id="inicio">
+                <div class="apresentacao">
+                    <p class="descricao">
+                        Oi, meu nome é <br>
+                        <span class="nome">Manderson Gomes.</span> <br>
+                        Desenvolvedor Front-end.
+                    </p>
+                    <div class="socialMedia">
+                        <a class="links" href="https://www.linkedin.com/in/manderson-gomes/" target="_blank">Linkedin</a> 
+                        <a class="links" href="https://github.com/MandersonGomes" target="_blank">GitHub</a> 
+                    </div>
+                </div>
+            </section>
+            
+            <section id="sobreMim">
+                <div class="sobreMimConteudo">
+
+                    <div class="image">
+                        <img src="img/fotoapresentacao.png" alt="Foto" 
+                             height="200" width="200" class="imagemApresentacao"/>
+                    </div>
+
+                    <div class="sobreConteudo">
+                        <h1>Sobre mim</h1>
+                        <p> 
+                            Meu nome é Manderson Gomes de Humberto. Eu entrei no mundo<br> 
+                            da programação em Setembro de 2022 quando eu- por acaso- vi um<br> 
+                            vídeo no Youtube falando sobre algumas das coisas que são possíveis<br> 
+                            de serem construídas por meio da programação.<br><br>
+                        </p>
+                        <p>
+                            Acabei, assim, optando pela desenvolvimento Front-end. Contudo, eu<br> 
+                            também me interesso pela parte do Backend. Por isso, já comecei a ter<br> 
+                            contato com algumas das tecnologias que são utilizadas no Backend.   
+                        </p>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section id="habilidades">
+                <div class="slide-container swiper">
+                    <h1 class="tituloHabilidade">Habilidades</h1>
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="img/react_Icon.png" alt="React" class="card-img" />
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">ReactJs</h2>
+                                    <p class="description">Biblioteca Front-end JavaScript com foco em criar interfaces de usuários em páginas web.</p>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="img/js_icon.png" alt="JavaScript" class="card-img" />
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">JavaScript</h2>
+                                    <p class="description">É uma linguagem de programação e uma das principais tecnologias da World Wide Web.</p>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="img/html_Icon.png" alt="HTML" class="card-img" />
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">HTML</h2>
+                                    <p class="description">HTML 5 é uma linguagem de marcação para Web e uma tecnologia chave da internet.</p>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="img/css_Icon.png" alt="CSS" class="card-img" />
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">CSS</h2>
+                                    <p class="description">CSS 3 é a versão mais nova da Cascading Style Sheets pela qual se define estilos para um projeto Web.</p>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="img/node_Icon.png" alt="Node" class="card-img" />
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">NodeJs</h2>
+                                    <p class="description">Software de código aberto que permite executar códigos JavaScript fora de um navegador Web.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            
+            <section id="projetos">
+                <div class="projetosContainer">
+                    <h1 class="titulo">Projetos</h1>
+
+                    <div class="projetosArea">
+                        <div class="projetos">
+                            <div class="projeto"><p>Em Breve!</p></div>
+                        </div>
+                        <div class="projetos">
+                            <div class="projeto"><p>Em Breve!</p></div>
+                        </div>
+                        <div class="projetos">
+                            <div class="projeto"><p>Em Breve!</p></div>
+                        </div>
+                        <div class="projetos esconder">
+                            <div class="projeto"><p>Em Breve!</p></div>
+                        </div>
+                        <div class="projetos esconder">
+                            <div class="projeto"><p>Em Breve!</p></div>
+                        </div>
+                        <div class="projetos esconder">
+                            <div class="projeto"><p>Em Breve!</p></div>
+                        </div>
+                        <div class="projetos esconder">
+                            <div class="projeto"><p>Em Breve!</p></div>
+                        </div>
+                        <div class="projetos esconder">
+                            <div class="projeto"><p>Em Breve!</p></div>
+                        </div>
+                        <div class="projetos esconder">
+                            <div class="projeto"><p>Em Breve!</p></div>
+                        </div>
+                    </div>
+                    
+                    <div class="botao">
+                        <button>Ver Mais</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <footer>
+            <div class="footer">
+                <div class="contato">
+                    E-mail: manderson.gomes@hotmail.com <br>
+                    Site criado por Manderson Gomes.
+                </div>
+
+                <div class="iconesFooter">
+                    <div class="linkedinFooter">
+                        <a href="https://www.linkedin.com/in/manderson-gomes/" target="_blank">Linkedin</a>
+                    </div>
+                    <div class="githubFooter">
+                        <a href="https://github.com/MandersonGomes" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/carregarNome.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/projetos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/habilidades.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+#projetos {
+    background: linear-gradient(45deg, #23232e 40%, #48CAE4 60%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetosContainer {
+    padding-top: 100px;
+}
+
+.projetosContainer h1 {
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:#23232e;
+    animation: animacaoTitulo 2s infinite linear alternate-reverse;
+}
+
+@keyframes animacaoTitulo {
+    0% {
+        transform: translateY(-10%);
+    } 
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.projetosArea {
+    display: flex;
+}
+
+.projetosArea {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.projetos {
+    background-color: #219EBC;
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.esconder {
+    display: none;
+    transition: 1000ms;
+}
+
+.projetos div p {
+    font-size: 20px;
+    color: #219EBC;
+    background-color: #23232e;
+    padding: 10px 0;
+}
+
+.projetos div {
+    width: 1000px;
+    text-align: center;
+    transform: rotate(-50deg);
+    
+}
+
+.projetos:hover {
+    letter-spacing: 5px;
+}
+
+.botao {
+    margin: 15px auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 100px;
+    background: linear-gradient(45deg, #23232e 40%, #48CAE4 60%);
+    cursor: pointer;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    transition: ease 0.3s;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+@media(max-width: 600px) {
+    .projetosContainer {
+        padding-top: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .projetosContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projetosArea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projetos {
+        margin-bottom: 10px;
+    }
+}

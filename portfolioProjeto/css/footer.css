@@ -1,0 +1,20 @@
+footer {
+    background-color: #23232e;
+    color: #FFF;
+    padding: 10px;
+    width: 100%;
+    border-top: 1px solid #fff;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.iconesFooter {
+    display: flex;
+    gap: 50px;
+}
