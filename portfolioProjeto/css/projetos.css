@@ -52,6 +52,16 @@
     overflow: hidden;
 }
 
+.imagemContent .imgContent {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.imagemContent:hover {
+    opacity: 1;
+}
+
 .esconder {
     display: none;
     transition: 1000ms;
@@ -67,7 +77,6 @@
 .projetos div {
     width: 1000px;
     text-align: center;
-    transform: rotate(-50deg);
     
 }
 
